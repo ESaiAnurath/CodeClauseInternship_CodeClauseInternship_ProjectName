@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    
+
+    <style>
+        /* Reset and Basic Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.feature, .testimonial {
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+#cta {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #6d2525;
+    color: #fff;
+}
+.checked {
+  color: orange;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b><italic>Heavenic Decors</italic></b></h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#call to action">Call to action</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>Quality</h3>
+                <p>Good quality interiors were made. With proper requirements and confort of the Customer.
+                    Best quality wood is used .
+                </p>
+            </div>
+            <div class="feature">
+                <h3>Delivery</h3>
+                <p>We are providing home delivery services with damage free packing and the worker to setup the product afer urchase for free of cost which evenincludes delivery.</p>
+            </div>
+            <div class="feature">
+                <h3>Offers & Deals</h3>
+                <p>If you are looking for a place we get more offers with more benfits.then this is the right place for you .here "Heavinic Decores" provides good offers every month.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>i am very happy with product. Thank you! - preetham</p>
+           
+        <div class="testimonial">
+            <p>"I can't imagine working without it." 
+                Thank you for such a good product- Krishna</p>
+        </div>
+    </section>
+
+    <section id="call to action">
+        <h2>Ready to get started?</h2>
+        <button>Sign Up Now</button>
+    </section>
+
+
+</body>
+</html>
